@@ -4,6 +4,7 @@
 .Description
     This cmdlet installs the Disk Utilities for BOSH deployed vm
 #>
+$ErrorActionPreference = "Stop";
 
 function Compress-Disk {
     Write-Log "Starting to compress disk"
